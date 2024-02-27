@@ -120,6 +120,23 @@ Aprender o básico sobre contribuição no GitHub.
 9. Envía los cambios a tu repositorio remoto `git push origin feat/community/TU_USERNAME`;
 10. Crea un **Pull Request**.
 
+### Instructions (FR/FR)
+1. Créez un **Fork** de ce référentiel ;
+2. Cloner localement : `git clone https://github.com/TU_USERNAME/dio-lab-open-source.git` ;
+3. Ajoutez la télécommande en amont pour maintenir votre référentiel local à jour. Par exemple : `git Remote Add Upstream https://github.com/digitalinnovationone/dio-lab-open-source.git` ;
+    > Utilisez la commande `git pull Upstream main` pour télécharger et fusionner les modifications apportées à votre référentiel local en fonction de la branche `main` de ce référentiel d'origine que vous avez créé, ou `git fetch amont main` pour télécharger sans fusion. Apprenez-en davantage sur : [Premiers pas avec Git et GitHub](https://github.com/digitalinnovationone/dio-lab-open-source/blob/main/utils/git/ROADMAP_GITHUB.md).
+4. Créez/référencez une nouvelle **branche** et nommez-la `feat/community/TU_USERNAME` : `git checkout -b feat/community/TU_USERNAME` ;
+    > Exemple : `git checkout -b feat/community/rafaeldscordeiro`
+5. Dans le dossier [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community), créez un fichier Markdown (extension `.md`) et nommez-le avec le même nom que votre utilisateur GitHub ;
+    > Exemple : `rafaeldscordeiro.md` <br>
+6. Développez votre profil. Pour cela, vous pouvez voir des exemples dans le dossier [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community) et ajouter certains des utilitaires présents dans le [ dossier `utils`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/utils) ;
+    > **Remarque :** Utilisez les autres exemples comme source d'inspiration et ne copiez pas.
+7. Ajoutez vos modifications à la « zone de transit » avec la commande « git add community/TU_USERNAME.md » ;
+8. Créez un commit et ajoutez un message indiquant l'ajout de votre profil `git commit -m"feat: add TU_USERNAME profile"`;
+9. Envoyez les modifications vers votre référentiel distant `git push origin feat/community/TU_USERNAME` ;
+10. Créez une **Pull Request**.
+
+
 ### Utilitários
 
 [![Badges](https://img.shields.io/badge/Badges-30A3DC?style=for-the-badge)](https://github.com/digitalinnovationone/dio-lab-open-source/blob/main/utils/badges/badges.md)
